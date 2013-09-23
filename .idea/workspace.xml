@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\tokuryo\IdeaProjects\scala-study\scala.iml" afterPath="$PROJECT_DIR$/scala-study.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/study005/ClassA.scala" afterPath="$PROJECT_DIR$/src/study005/ClassA.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/study005/ClassB.scala" afterPath="$PROJECT_DIR$/src/study005/ClassB.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/study005/MainClone.scala" afterPath="$PROJECT_DIR$/src/study005/MainClone.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scala.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/MainSemicolon.scala" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379928166786" ignored="false" />
-    <file path="/Dummy.txt" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379933858060" ignored="false" />
-    <file path="/ClassA.scala" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379929819529" ignored="false" />
-    <file path="/MainClone.scala" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379931748344" ignored="false" />
+    <file path="/Dummy.txt" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379941514188" ignored="false" />
+    <file path="/ClassA.scala" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379941659270" ignored="false" />
+    <file path="/MainClone.scala" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379941854041" ignored="false" />
     <file path="/MainMatch.scala" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379932492537" ignored="false" />
-    <file path="/fragment.java" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379933930031" ignored="false" />
+    <file path="/fragment.java" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379941694744" ignored="false" />
+    <file path="$PROJECT_DIR$/../gogodate/.idea/workspace.xml" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379941887283" ignored="false" />
+    <file path="$PROJECT_DIR$/../gogodate/src/com/gogodate/Algorithm.scala" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379941443684" ignored="false" />
+    <file path="/ClassB.scala" changelist="d7b96605-0504-4bb6-ad75-67d9d4a9dbb0" time="1379941795451" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +78,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FizzBuzz.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FizzBuzz.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fizzbuzz/FizzBuzz.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="2" selection-start="38" selection-end="38" vertical-scroll-proportion="0.09189189">
+            <state line="9" column="10" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassA.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/study005/ClassA.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="12" selection-start="238" selection-end="238" vertical-scroll-proportion="0.34991422">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassB.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/study005/ClassB.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="12" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainClone.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/study005/MainClone.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,17 +135,18 @@
         <option value="$PROJECT_DIR$/src/study0000/Hoge.scala" />
         <option value="$PROJECT_DIR$/src/fizzbuzz/FizzBuzz.scala" />
         <option value="$PROJECT_DIR$/src/study0000/MainSemicolon.scala" />
-        <option value="$PROJECT_DIR$/src/study005/ClassA.scala" />
-        <option value="$PROJECT_DIR$/src/study005/MainClone.scala" />
         <option value="$PROJECT_DIR$/src/study001/MainMatch.scala" />
+        <option value="$PROJECT_DIR$/src/study005/ClassA.scala" />
+        <option value="$PROJECT_DIR$/src/study005/ClassB.scala" />
+        <option value="$PROJECT_DIR$/src/study005/MainClone.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="179" />
-    <option name="y" value="7" />
-    <option name="width" value="1727" />
-    <option name="height" value="1036" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1064" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -171,6 +203,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scala-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study005" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,7 +312,7 @@
       <recent name="C:\Users\tokuryo\IdeaProjects\scala\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FizzBuzz">
+  <component name="RunManager" selected="Application.MainClone">
     <configuration default="false" name="FizzBuzz" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="fizzbuzz.FizzBuzz" />
       <option name="VM_PARAMETERS" value="" />
@@ -281,15 +331,15 @@
     </configuration>
     <configuration default="false" name="MainClone" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="study005.MainClone" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="scala" />
+      <module name="scala-study" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -440,9 +490,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FizzBuzz" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainFor" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainClone" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainClone" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FizzBuzz" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainFor" />
         <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
         <item index="4" class="java.lang.String" itemvalue="Application.MainSemicolon" />
       </list>
@@ -485,11 +535,15 @@
       <created>1379932791425</created>
       <updated>1379932791425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="設定変更">
+      <created>1379933980357</created>
+      <updated>1379933980357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="179" y="7" width="1727" height="1036" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1064" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -500,13 +554,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5074456" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50610435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24954791" sideWeight="0.67124856" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32875144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22162741" sideWeight="0.681465" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31853497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -556,7 +610,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="コンパイルの警告等" />
+    <option name="LAST_COMMIT_MESSAGE" value="設定変更" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -572,6 +626,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="最初のコミット" />
     <MESSAGE value="コンパイルの警告等" />
+    <MESSAGE value="設定変更" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -600,7 +655,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scala-study.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/study004/Main.scala">
@@ -630,16 +687,6 @@
         <state line="3" column="33" selection-start="70" selection-end="70" vertical-scroll-proportion="0.12781955" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/study005/ClassA.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="189" selection-end="189" vertical-scroll-proportion="0.3063063" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study005/MainClone.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="351" selection-end="351" vertical-scroll-proportion="0.3981982" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/study0000/Hoge.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="1" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" />
@@ -652,7 +699,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fizzbuzz/FizzBuzz.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="38" selection-end="38" vertical-scroll-proportion="0.09189189">
+        <state line="9" column="10" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study005/MainClone.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study005/ClassB.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study005/ClassA.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="12" selection-start="238" selection-end="238" vertical-scroll-proportion="0.34991422">
           <folding />
         </state>
       </provider>

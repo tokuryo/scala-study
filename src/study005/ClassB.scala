@@ -2,10 +2,10 @@ package study005
 
 @cloneable
 class ClassB {
-  var var11: String = null
+  var varInB: String = null
 
   override def toString(): String = {
-    var11
+    varInB
   }
 
   override def clone() = super.clone().asInstanceOf[ClassB]
