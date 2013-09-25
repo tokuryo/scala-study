@@ -2,15 +2,9 @@ package study002
 
 // http://www.atmarkit.co.jp/fjava/index/index_scala.html
 // http://www.atmarkit.co.jp/ait/articles/1203/02/news118_2.html
-object Main {
+// リテラルと型推論。
+object MainLiteral {
   def main(args: Array[String]) {
-    katasuiron()
-    symbolSample()
-    arraySample()
-  }
-
-  // 型推論。リテラル。
-  def katasuiron(): Unit = {
     val v1 = "hoge"
     println(v1.getClass().getName())
 
@@ -71,44 +65,4 @@ object Main {
     println("""ccc
         ddd""")
   }
-
-  def symbolSample(): Unit = {
-    // Stringとの違いは、Stringは同じ内容でも異なるインスタンスが存在しうる（"abc"とnew String("abc")はインスタンスが異なる）のに対し、
-    // Symbolでは同じ内容ならインスタンスも等しい。
-    // Symbol は Mapのキー等に使うのに向いているらしい
-    println("*** symbolSample() ***")
-    val v01 = 'aaa
-    val v02 = Symbol("aaa")
-    if (v01 eq v02) {
-      println("eq")
-    } else {
-      println("else");
-    }
-
-    val v03 = "aaa"
-    val v04 = new String("aaa")
-    if (v03 eq v04) {
-      println("eq")
-    } else {
-      println("else")
-    }
-  }
-  
-  def arraySample(): Unit = {
-    println("ArraySample")
-    val a1 = new Array[Int](3)
-    println("a1.length:" + a1.length)
-    println(a1(0))
-    println(a1(1))
-    println(a1(2))
-    a1(0) = 100
-    println(a1(0))
-    
-    val a2 = Array(1, 2, 3, 4)
-    println("a2.length" + a2.length)
-    println(a2(0))
-    println(a2(3))
-    
-  }
-
 }
