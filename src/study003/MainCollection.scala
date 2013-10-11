@@ -3,7 +3,7 @@ package study003
 // http://www.atmarkit.co.jp/ait/articles/1203/15/news119.html
 // http://www.tatapa.org/~takuo/scala_collections_2.8/collections.html
 // http://bach.istc.kobe-u.ac.jp/lect/ProLang/org/scala-list.html
-object Main {
+object MainCollection {
 
   def main(args: Array[String]): Unit = {
     collectionSample()
