@@ -16,16 +16,18 @@ object MainCollection {
     //不変オブジェクトは状態が変更されないのでシンプル。
     //　→状態遷移を意識する必要が無い。
     //　→バグを減らせる。
-    println("collectionSample")
 
-    // 不変List
+    // List。イミュータブル。
+    println("*** List ***")
     val days0 = List("火", "水")
-    // 不変（immutable）なのでコンパイルエラー
+    // イミュータブルであり、代入できない。
     // days0(0) = "火曜日"
-    val days1 = "月" :: days0
-    println("days1:" + days1(0) + days1(1) + days1(2))
+    val days1 = "日" :: "月" :: days0
+    println("days0.length : " + days0.length)
+    println("days1.length : " + days1.length)
+    println("days0:" + days0(0) + days0(1))
+    println("days1:" + days1(0) + days1(1) + days1(2) + days1(3))
     println("days1.head:" + days1.head)
-    println("days1.length:" + days1.length)
     println("days1.isEmpty:" + days1.isEmpty)
 
     // 不変Map
