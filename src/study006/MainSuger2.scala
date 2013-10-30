@@ -1,4 +1,4 @@
-package study004
+package study006
 
 // 理解不足
 // http://yuroyoro.hatenablog.com/entry/20100317/1268819400
@@ -6,7 +6,7 @@ package study004
 // http://seratch.hatenablog.jp/entry/20111102/1320245066
 // https://sites.google.com/site/scalajp/home/documentation/scala-by-example/chapter2
 // https://sites.google.com/site/scalajp/home/documentation
-object Main {
+object MainSuger2 {
   var hoge: String = null
   
   def main(args: Array[String]) {
