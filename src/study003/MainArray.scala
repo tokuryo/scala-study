@@ -1,4 +1,4 @@
-package study002
+package study003
 
 // Javaの配列相当。
 object MainArray {
