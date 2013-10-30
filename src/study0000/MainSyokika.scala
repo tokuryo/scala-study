@@ -1,7 +1,7 @@
 package study0000
 
 // http://www.ne.jp/asahi/hishidama/home/tech/scala/index.html
-object Main {
+object MainSyokika {
 
   // mainメソッド
   def main(args: Array[String]): Unit = {
