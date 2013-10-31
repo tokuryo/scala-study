@@ -29,7 +29,36 @@ object MainCollection {
     println("days1:" + days1(0) + days1(1) + days1(2) + days1(3))
     println("days1.head:" + days1.head)
     println("days1.isEmpty:" + days1.isEmpty)
+    println()
 
+    // Nil 空リスト
+    val days2 = "日曜日" :: "月" :: Nil
+    println("days2 : " + days2)
+
+    // List連結。":"を３つ。
+    val days3 = "火曜日" :: "水" :: Nil
+    val days4 = days2 ::: days3
+    println("days4 : " + days4)
+
+    // フィルター
+    println("days4 のうち ３文字のもの")
+    days4.filter(day => day.length == 3).foreach(d => println(d))
+
+    // 含まれているか
+    print("月が存在するかどうか ")
+    println(days4.exists(day => day == "月"))
+
+    // 空かどうか
+    println("days4.isEmpty() : " + days4.isEmpty)
+
+    // 先頭の２要素削除
+    val days5 = days4.drop(2)
+    println("先頭２要素削除")
+    println("days4 : " + days4)
+    println("days5 : " + days5)
+
+    println()
+    println("*** Map ***")
     // 不変Map
     val map = Map[String, Int]("hoge" -> 1, "bar" -> 2)
     println("""map("bar"):""" + map("bar"))
@@ -39,7 +68,8 @@ object MainCollection {
       case e: NoSuchElementException => println(e)
     }
 
-    // 不変？異なる型の配列？
+    // タプル（tuple）
+    // イミュータブル。異なる型を複数持てる。
     // メソッドからの戻り値で複数要素を返したい時に便利
     val tuple = ("hoge", 10L)
     // _1 は 1番目
