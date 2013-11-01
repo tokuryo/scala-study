@@ -22,6 +22,8 @@ object MainCollection {
     val days0 = List("火", "水")
     // イミュータブルであり、代入できない。
     // days0(0) = "火曜日"
+
+    // days0の先頭に"月"を挿入。更に"日"を挿入。
     val days1 = "日" :: "月" :: days0
     println("days0.length : " + days0.length)
     println("days1.length : " + days1.length)
@@ -29,23 +31,27 @@ object MainCollection {
     println("days1:" + days1(0) + days1(1) + days1(2) + days1(3))
     println("days1.head:" + days1.head)
     println("days1.isEmpty:" + days1.isEmpty)
-    println()
+
+    // 末尾へ挿入。リストのサイズが大きくなるほど遅くなるので注意。
+    // 連続して末尾へ挿入したい場合は、連続して先頭へ挿入した後、reverse したほうが早い。
+    val days11 = days1 :+ "木"
+    println("days11 : " + days11)
 
     // Nil 空リスト
     val days2 = "日曜日" :: "月" :: Nil
     println("days2 : " + days2)
 
-    // List連結。":"を３つ。
+    // Listを先頭へ挿入。":"を３つ。
     val days3 = "火曜日" :: "水" :: Nil
     val days4 = days2 ::: days3
     println("days4 : " + days4)
 
     // フィルター
     println("days4 のうち ３文字のもの")
-    days4.filter(day => day.length == 3).foreach(d => println(d))
+    days4.filter(day => day.length == 3).foreach(d => println("  " + d))
 
     // 含まれているか
-    print("月が存在するかどうか ")
+    print("days4 に月が存在するかどうか ")
     println(days4.exists(day => day == "月"))
 
     // 空かどうか
@@ -53,9 +59,11 @@ object MainCollection {
 
     // 先頭の２要素削除
     val days5 = days4.drop(2)
-    println("先頭２要素削除")
+    println("days4から先頭２要素削除したものをdays5へ代入")
     println("days4 : " + days4)
     println("days5 : " + days5)
+
+    // TODO Listのappendは長くなるほど遅くなる。
 
     println()
     println("*** Map ***")
